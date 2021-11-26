@@ -21,12 +21,24 @@
     $dados = mysqli_query($conn, $sql);
     $linha = mysqli_fetch_assoc($dados);
   ?>
+  <nav class="navbar navbar-expand-sm bg-light">
+        <div class="container-fluid">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="cadastro.php">Cadastrar Aluno</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="pesquisar.php">Pesquisar Aluno</a>
+                      </li>
+                </ul>
+        </div>
 
+  </nav>
   <div class="container">
             <div class="row">
               <div class="col">
                 <h1>Editar Alunos</h1>
-                
+                <img src="images/updatealuno.jpg" alt="alterar Aluno" width="500" height="400">
                     <form action = "edit_script.php" method="POST">
 
                       <div class="form-group">
@@ -47,6 +59,10 @@
                   
                   </div>
               </div>
+                  <br>
+                  <a href="index.php" class="btn btn-primary">Voltar Para Inicio</a>
+                  <a href="pesquisar.php" class="btn btn-primary">Ir para Pesquisa</a>
+                  <a href="cadastro.php" class="btn btn-primary">Ir para Cadastro</a>
           </div>
 
     <!-- Optional JavaScript; choose one of the two! -->

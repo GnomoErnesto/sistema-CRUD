@@ -25,7 +25,19 @@
 
         $dados = mysqli_query($conn, $sql);
 ?>
+  <nav class="navbar navbar-expand-sm bg-light">
+        <div class="container-fluid">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="cadastro.php">Cadastrar Aluno</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="pesquisar.php">Pesquisar Aluno</a>
+                      </li>
+                </ul>
+        </div>
 
+  </nav>
 
 
   <div class="container">
@@ -33,7 +45,7 @@
         <div class="col">
 
     <h1>Pesquisar</h1>
-
+    <img src="images/selectaluno.jpg" alt="pesquisar Aluno" width="500" height="400">
     <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
             <form class="d-flex" action="pesquisar.php" method="POST">

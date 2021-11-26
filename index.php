@@ -11,9 +11,7 @@
     <title>Alunos</title>
   </head>
   <body>
-
   <nav class="navbar navbar-expand-sm bg-light">
-
         <div class="container-fluid">
                     <ul class="navbar-nav">
                       <li class="nav-item">
@@ -26,14 +24,14 @@
         </div>
 
   </nav>
-
   <div class="container">
             <div class="row">
               <div class="col">
+
                   </div>
               </div>
-          </div>
-
+          </div>     
+        <img src="images/icon.jpg" class="images" alt="icone aluno">
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
